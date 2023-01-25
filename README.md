@@ -70,11 +70,12 @@ npm i
 
 -----------------------------------------------------------------------
 How to use a component:
-
+```
 <Counter counter={5}/>
+```
 
 *** class component: *****
-
+```
 import { Component } from "react";
 
 class Counter extends Component {
@@ -87,16 +88,17 @@ class Counter extends Component {
     );
   }
 }
+```
 
 *** function component: *****
-
+```
 const Counter = (props)=>{
     console.log(this.props);
     return <div>
         counter: {props.counter}
     </div>
 }
-
+```
 -----------------------------------------------------------------------
 
 two basic rules:
